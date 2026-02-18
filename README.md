@@ -22,6 +22,11 @@ Following this, two **AWS Glue jobs** were configured:
 
 Finally, the contents of the Iceberg tables were validated using queries executed in Amazon Athena to ensure data completeness and consistency.
 
+## Sample of the Athena Query Result
+
+![Athena_Query_Sample](Athena_Query_Sample.png)
+
+
 ## Future Improvements
 - Create QuickSight dashboards to visualise data, and allow for convenient analysis
 - Automate validation steps for data quality instead of manual validation i.e. Python code
