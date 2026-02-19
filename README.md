@@ -22,10 +22,16 @@ Following this, two **AWS Glue jobs** were configured:
 
 Finally, the contents of the Iceberg tables were validated using queries executed in Amazon Athena to ensure data completeness and consistency.
 
-## Sample of the Athena Query Result
+## Samples of the Athena Query Results
+1. Entries from the Iceberg table, limited to 20
 
 ![Athena_Query_Sample](Athena_Query_Sample.png)
 
+2. Analytics query for most popular brand
+![Athena_Query_Analytics_Sample1](Athena_Query_Analytics_Sample1.png)
+
+3. Analytics query for most popular product
+![Athena_Query_Analytics_Sample2](Athena_Query_Analytics_Sample2.png)
 
 ## Future Improvements
 - Create QuickSight dashboards to visualise data, and allow for convenient analysis
